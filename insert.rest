@@ -1,0 +1,20 @@
+### Login admin
+POST http://localhost:5000/login
+Content-Type: application/x-www-form-urlencoded
+
+username=DJWolfboi&password=admin123
+
+### Login usuario normal
+POST http://localhost:5000/login
+Content-Type: application/x-www-form-urlencoded
+
+username=Noel&password=user1234
+
+### Acceder a dashboard
+GET http://localhost:5000/dashboard
+
+### Acceder a admin
+GET http://localhost:5000/admin
+
+### Cerrar sesión
+GET http://localhost:5000/logout
